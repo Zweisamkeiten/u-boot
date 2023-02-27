@@ -20,6 +20,7 @@
 #ifndef CFG_SPL_BUILD
 #define BOOT_TARGET_DEVICES(func) \
 	func(QEMU, qemu, na) \
+  func(VIRTIO, virtio, 0)
 
 #include <config_distro_bootcmd.h>
 
